@@ -1,0 +1,97 @@
+.header {
+    padding-top: 25px;
+    padding-bottom: 95px;
+    display: flex;
+
+    &__logo {
+        
+    }
+
+    &__nav {
+        /* margin-left: auto; */
+        
+    }
+
+    &__contacts {
+    }
+}
+.intro {
+
+    &__header {
+    }
+}
+.logo {
+    display: flex;
+    
+
+    &__icon-link {
+        margin-right: 20px;
+    }
+
+    &__text {
+         font-family: $main_font;
+         font-size: $text-font_size;
+         line-height: 140%;
+         font-weight: 700;
+    }
+}
+.logotyp {
+}
+.logo-svg {
+    width: 125px;
+    height: 60px;
+}
+.nav {
+    max-width: 510px;
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        font-family: $main_font;
+        font-size: $text-font_size;
+        color: $primary-text_color;
+        outline: 0;
+        text-decoration: none;
+            &:focus {
+                box-shadow: 0 0 0 2px rgb(53, 134, 255);
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &:active {
+                color: $bright-decor-color;
+            }
+    }
+}
+.contacts {
+    
+
+    &__tel {
+        font-size: $subtitle-font_size;
+        font-family: $main_font;
+        color: $primary-text_color;
+        font-weight: 700;
+        text-decoration: none;
+
+    }
+    
+    &__btn {
+        margin-top: 10px;
+
+        width: 170px;
+        height: 40px;
+    }
+}
+.btn {
+}

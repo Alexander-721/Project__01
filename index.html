@@ -1,371 +1,71 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap</title>
-    <script src="https://use.fontawesome.com/f60a95d5ed.js"></script>
-    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <nav>
-          <div class="container">
-              <ul class="menu">
-                  <li class="menu_item"><a href="#" class="menu_link">ГЛавная</a></li>
-                  <li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-                  <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
-                  <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
-                  <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
-                  <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
-              </ul>
-          </div>
-      </nav>
-      <div class="subheader">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-4 offset-md-1">
-                      <a href="#" class="subheader_logo"><img src="icons/logo.png" alt="logo"></a>
-                      <div class="subheader_official">Официальный партнер Uber в Москве</div>
-                  </div>
-  
-                  <div class="col-md-2 offset-md-2">
-                      <div class="subheader_call">Звоните нам ежедневно</div>
-                      <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
-                  </div>
-  
-                  <div class="col-md-2">
-                      <button class="subheader_btn">заказать звонок</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </header>
-<!-- /Header -->
-
-<!-- Promo -->
-  <section class="promo">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-10 offset-md-1">
-                  <h1 class="promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
-                  <h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
-                  <div class="promo_descr">
-                      Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди
-                      таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система.Помимо выполненной работы по заказам, компания начисляет бонусы за
-                      пиковое время.
-                      <br><br>
-                      Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.  Водители у нас
-                      зарабатывают от 80000- 120000 в месяц.
-                  </div>
-                  <button class="promo_btn">ОТПРАВИТЬ ЗАЯВКУ!</button>
-              </div>
-          </div>
-      </div>
-  </section>
-<!-- /Promo -->
-
-<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-
-<!-- Advantage -->
-<section class="advantage">
-  <div class="wrapper">
-    <div class="topblock advantage__suptitle">
-      Преимущества
-    </div>
-    <h3 class="toptitle advantage__title">8 причин начать работать с нами</h3>
-
-    <div class="advantage__list">
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesenka</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="intro">
+        <div class="container">
+            <header class="header intro__header">
+                <div class="logo header__logo">
+                    <a href="#" class="logotyp logo__icon-link">
+                        <svg class="logo-svg">
+                            <use xlink:href="icons/sprite.svg#logo"></use>
+                        </svg> 
+                    </a>
+                    <span class="logo__text">Проектирование <br> Изготовление <br> Монтаж</span>
+                </div>
+                <div class="nav header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="" class="nav__link">О компании</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Каталог</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Примеры работ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Блог</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts header__contacts">
+                    <a href="tel:+79302835065" class="contacts__tel">+7 (930) 283-50-65</a>
+                    <button class="btn contacts__btn">Перезвоните мне!</button>
+                </div>
+            </header>
+            <div class="intro__wrapper">
+                <img src="img/desktop_intro.jpg" alt="" class="intro__img">
+                <div class="intro__info">
+                    <span class="intro__notice">Всего <b>за 10 дней</b> с гарантией <b>30лет</b></span>
+                    <h1 class="intro__title">
+                        Монолитные лестницы «под ключ»
+                    </h1>
+                    <p class="intro__descr">
+                        Исполним все ваши мечты о современной и красивой лестнице по минимальной цене, но с максимальным качеством!
+                    </p>
+                    <button class="btn intro__btn">Консультация</button>
+                </div>
+                
+                <div class="calculate intro__calculate">
+                    <span class="calculate__text">Рассчитайте стоимость вашей лестницы <b>в 3 шага</b></span>
+                    <button class="btn calculate__btn">Подробнее</button>
+                </div>
+            </div>
         </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>        
-    
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
-        </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>        
-    
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
-        </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>        
-    
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
-        </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>        
-    
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
-        </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>        
-    
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
-        </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>        
-    
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
-        </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>        
-    
-      <div class="advantage__list-item">
-        <div class="advantage__img">
-          <img src="icons/Icon-item (3).png" alt="icon" class="">
-        </div>
-        <div class="advantage__list-description">
-          <span>Никаких наличных, оплата происходит автоматически</span><br>
-          Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
-        </div>
-      </div>     
-    </div>
-  </div>
-</section>
-<!-- /Advantage -->
-
-<!-- Mobile -->
-  <section class="mobile">
-    <div class="container">
-      <div class="topblock mobile__suptitle">Возможности</div>
-      <div class="toptitle mobile__title">мобильное приложение убер</div>
-      <div class="topsubtitle mobile__subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
-    
-    <div class="mobile__card">
-      <div class="mobile__card-items">
-        <div class="mobile__card-item">
-          <div class="mobile__card-text">
-            Оформление заказа одним касанием
-          </div>
-          <div class="mobile__card-plus">
-            <img src="icons/plus.png" alt="plus">
-          </div>
-        </div>
-      </div>
-      <div class="mobile__card-items">
-        <div class="mobile__card-item">
-          <div class="mobile__card-text">
-            Оформление заказа одним касанием
-          </div>
-          <div class="mobile__card-plus">
-            <img src="icons/plus.png" alt="plus">
-          </div>
-        </div>
-      </div>
-      <div class="mobile__card-items">
-        <div class="mobile__card-item">
-          <div class="mobile__card-text">
-            Оформление заказа одним касанием
-          </div>
-          <div class="mobile__card-plus">
-            <img src="icons/plus.png" alt="plus">
-          </div>
-        </div>
-      </div>
-      <div class="mobile__card-items">
-        <div class="mobile__card-item">
-          <div class="mobile__card-text">
-            Оформление заказа одним касанием
-          </div>
-          <div class="mobile__card-plus">
-            <img src="icons/plus.png" alt="plus">
-          </div>
-        </div>
-      </div>
-      <div class="mobile__card-items">
-        <div class="mobile__card-item">
-          <div class="mobile__card-text">
-            Оформление заказа одним касанием
-          </div>
-          <div class="mobile__card-plus">
-            <img src="icons/plus.png" alt="plus">
-          </div>
-        </div>
-      </div>
-      <div class="mobile__card-items">
-        <div class="mobile__card-item">
-          <div class="mobile__card-text">
-            Оформление заказа одним касанием
-          </div>
-          <div class="mobile__card-plus">
-            <img src="icons/plus.png" alt="plus">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-<!-- /Mobile -->
-
-  <!-- Avto -->
-  <section class="avto">
-      <div class="topblock avto__suptitle">Возможности</div>
-      <div class="toptitle avto__title">Выбор - отличная штука!</div>
-      <div class="topsubtitle avto__subtitle">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
-      <div class="avto__img">
-        <img src="icons/avtoo.jpg" alt="avto">
-      </div>
-      <div class="avto__descr">Машины на каждый день. <br> Лучше, быстрее и дешевле, чем такси</div>
     </section>
-    <!-- /Avto -->
 
-    <!-- request -->
-    <section class="request">
-      <div class="container">
-      <div class="topblock request__suptitle">Возможности</div>
-      <div class="toptitle request__title">Условия и требования</div>
-      <div class="request__list">
 
-        <div class="request__list-block">
-          <div class="request__list-descripton">
-            УСЛОВИЯ: со своим авто:
-          </div>
-          <ul class="request__list-item">
-            <li class="request__list-items">Подключаем к системе UBER  под 10%.</li>
-            <li class="request__list-items">Ни каких взносов  0%!</li>
-            <li class="request__list-items">Можем подключать удаленно без приезда в офис</li>
-            <li class="request__list-items">ИП не требуется</li>
-            <li class="request__list-items">Заказы распределяются без учета рейтинга ближайшим водителям</li>
-            <li class="request__list-items">Работа только по безналичному расчету</li>
-            <li class="request__list-items">Деньги перечисляем на карту водителю или наличными в офисе</li>
-          </ul>
-          <div class="request__list-text">
-            В день заработок составляет 7000-12000р + бонус 3000т рублей
-          </div>
-        </div>
-
-        <div class="request__list-block">
-          <div class="request__list-descripton">
-            УСЛОВИЯ: на авто компании:
-          </div>
-          <ul class="request__list-item">
-            <li class="request__list-items">Предоставляем авто без залога</li>
-            <li class="request__list-items">Без ежедневных выплат по аренде</li>
-            <li class="request__list-items">Среда пятница и суббота работа на компанию остальные дни вы работаете на себя</li> 
-          </ul>
-        </div>
-
-        <div class="request__list-block">
-          <div class="request__list-descripton request__list-descripton--red">
-            Требования:
-          </div>
-          <ul class="request__list-item--red">
-            <li class="request__list-items request__list-items--red">Наличие автомобиля без рекламы</li>
-            <li class="request__list-items request__list-items--red">Автомобиль не должен быть желтый и не с желтыми 
-              номерами</li>
-            <li class="request__list-items request__list-items--red">Машина не старше 3 лет</li> 
-            <li class="request__list-items request__list-items--red">Стаж вождения не менее 3 лет</li> 
-            <li class="request__list-items request__list-items--red">Девайс на системе андроид 4.0 и выше(самсунг)</li> 
-          </ul>
-        </div>
-
-        <div class="request__list-block">
-          <div class="request__list-descripton request__list-descripton--red">
-            Документы:
-          </div>
-          <ul class="request__list-item--red">
-            <li class="request__list-items request__list-items--red">Паспорт 2 стороны</li>
-            <li class="request__list-items request__list-items--red">Паспорт лицевая сторона</li>
-            <li class="request__list-items request__list-items--red">СтС</li> 
-            <li class="request__list-items request__list-items--red">Лицензия (если есть)</li> 
-            <li class="request__list-items request__list-items--red">Номер телефона</li> 
-            <li class="request__list-items request__list-items--red">Номер карты для перечисления денег(указать в письме)!</li> 
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /request -->
-
-  
-<!-- city -->
-  <section class="city">
-    <div class="city__up-text">
-      <div class="topblock city__topblock--white">города</div>
-      <div class="toptitle city__toptitle--white">по всему миру</div>
-      <div class="topsubtitle city__topsubtitle--white">Мы в вашем городе и по всему миру</div>
-    </div>
-    <div class="city__link">
-      <a href="#" class="seeall">посмотреть все города</a>
-    </div>
-  </section>
-<!-- /city -->
-
-  <footer class="footer">
-      <div class="footer__inner">
-        <div class="footer__social">
-          <div class="social">
-            <img src="img/twitter.png" alt="" class="social-img">
-          </div>
-          <div class="social">
-            <img src="img/twitter.png" alt="" class="social-img">
-          </div>
-          <div class="social">
-            <img src="img/twitter.png" alt="" class="social-img">
-          </div>
-          <div class="social">
-            <img src="img/twitter.png" alt="" class="social-img">
-          </div>
-        </div>
-        <div class="footer__link">
-          <div class="footer__link-top">
-            <a href="#" class="footer__link-item">на главную</a>
-            <a href="#" class="footer__link-item">города</a>
-            <a href="#" class="footer__link-item">для водителей</a>
-          </div>
-          <div class="footer__link-bot">
-            <a href="#" class="footer__link-item-grey">центр поддержки</a>
-            <a href="#" class="footer__link-item-grey">вакансии</a>
-            <a href="#" class="footer__link-item-grey">разработчики</a>
-            <a href="#" class="footer__link-item-grey">блог</a>
-            <a href="#" class="footer__link-item-grey">о нас</a>
-          </div>
-          <div class="footer__lang">русский</div>
-        </div>
-        <div class="footer__pay">
-          <img src="img/Ссылки.png" alt="">
-        </div>
-      </div>
-  </footer>
-  </body> 
+</div>
+</body>
 </html>

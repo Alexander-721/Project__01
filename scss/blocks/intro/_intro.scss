@@ -1,0 +1,59 @@
+.intro {
+    background-image:  linear-gradient(to right, #F9BB88 30%, #F4F4F4 30%, #F4F4F4 100%);
+
+   
+
+   
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__img {
+        position: absolute;
+        left: -140px;
+        top: -48px;
+    }
+
+    &__info {
+        max-width: 333px;
+        padding-bottom: 310px;
+    }
+
+    &__notice {
+        font-family: $main_font;
+        font-size: 12px;
+        color: $accent_color;
+        letter-spacing: .05em;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        font-family: $main_font;
+        color: $primary-text_color;
+        font-size: 45px;
+        letter-spacing: .04em;
+        line-height: 120%;
+        font-weight: 900;
+
+        margin: 0;
+        margin-bottom: 68px;
+    }
+
+    &__descr {
+        font-family: $main_font;
+        color: $primary-text_color;
+        font-size: $text-font_size;
+        line-height: 22px;
+
+        margin-bottom: 35px;
+        
+    }
+
+    &__btn {
+        width: 209px;
+        height: 50px;
+    }
+}
