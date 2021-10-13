@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1185px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-family: $main_font;
+    color: $secondary-text_color;
+    font-size: $text-font_size;
+
+    background-color: $accent_color;
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .2s linear;
+
+    cursor: pointer;
+
+    &:focus {
+        box-shadow: 0 0 0 2px rgb(0, 0, 0);
+    }
+
+    &:active {
+        color: $bright-decor-color;
+        background-color: rgba(75, 75, 75, 0.61);
+    }
+
+    &:hover {
+        background-color: $primary-text_color;
+    }
+}

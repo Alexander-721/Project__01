@@ -1,6 +1,0 @@
- git config --global user.name "Alexander"
- git config --global user.email test22@mail.ru
-
-
-git config --local user.name "Alexander"
-git config --local user.email test22@mail.ru
